@@ -1,0 +1,109 @@
+.main-bodycontainer{
+    display:grid;
+    justify-content: center;
+}
+.body-background{
+    width: 700px;
+    height: 540px;
+    background-color: #121413;
+    border-radius: 30px;
+    position: relative;
+}
+.g-data > .gold-icon-svg{
+    width:83px;
+    height: 45px;
+}
+.g-data p{
+    color: #fff;
+    font-size: 2.5rem;
+    margin: 0px;
+}
+.g-data{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap:20px
+}
+.data-columns{
+    position: absolute;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-template-columns: repeat(auto,minmax(auto,1fr));
+    gap: 20px;
+    padding: 10px;
+    top:15%;
+    left:8%
+}
+
+@media (max-width: 750px){
+    .body-background{
+        width: 600px;
+        height: 440px;
+    }
+    .g-data p{
+        color: #fff;
+        font-size: 2rem;
+        margin: 0px;
+    }
+    .data-columns{
+        position: absolute;
+        top:5%
+    }
+}
+@media (max-width: 620px){
+    .body-background{
+        width: 500px;
+        height: 400px;
+        margin: 0px auto;
+    }
+    .g-data p{
+        color: #fff;
+        font-size: 1.5rem;
+        margin: 0px;
+    }
+    .data-columns{
+        position: absolute;
+        top:5%;
+        gap: 10px;
+    }
+}
+@media (max-width: 520px){
+    .body-background{
+        width: 400px;
+        height: 450px;
+        margin: 0px auto;
+    }
+    .g-data p{
+        color: #fff;
+        font-size: 1.2rem;
+        margin: 0px;
+    }
+    .data-columns{
+        position: absolute;
+        top:12%;
+        gap: 10px;
+    }
+}
+@media (max-width: 420px){
+    .body-background{
+        width: 350px;
+        height: 400px;
+        margin: 0px auto;
+    }
+    .g-data{
+        gap:10px;
+    }
+    .g-data p{
+        color: #fff;
+        font-size: 1rem;
+        margin: 0px;
+    }
+    .data-columns{
+        position: absolute;
+        top:10%;
+        gap: 7px;
+    }
+}
+

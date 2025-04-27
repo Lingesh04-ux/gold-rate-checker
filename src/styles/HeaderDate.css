@@ -1,0 +1,30 @@
+.header-title{
+    color: #DDDD00;
+    font-size: 3rem;
+    margin: 0px;
+    padding: 20px;
+}
+.header-date{
+    color: #ffffff;
+    font-size: 2rem;
+    margin: 0px;
+}
+.main-header{
+    display: grid;
+    justify-content: center;
+    text-align:center;
+    margin-top:5%;
+    margin: 3% auto;
+    grid-template-columns: repeat(0, 1fr);
+    gap: 20px;
+}
+
+@media (max-width:500px){
+    .header-title{
+        font-size:2rem;
+        margin-top:5%;
+    }
+    .header-date{
+        font-size:1.7rem
+    }
+}
