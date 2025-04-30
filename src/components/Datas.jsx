@@ -4,7 +4,7 @@ const Datas = [{twentyFourKGold : 9803,
      twentyTwoKGold : 8980,
      eighteenKGold : 7353,
      fourteenKGold : 5718,
-     platinum : 3333,
+     platinum : 3397,
      silver : 111,}]
 
     // const twentyFourKGold = 9831;
