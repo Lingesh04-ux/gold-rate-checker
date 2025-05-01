@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Datas = [{twentyFourKGold : 9803,
-     twentyTwoKGold : 8980,
-     eighteenKGold : 7353,
-     fourteenKGold : 5718,
-     platinum : 3397,
-     silver : 111,}]
+const Datas = [{twentyFourKGold : 9580,
+     twentyTwoKGold : 8775,
+     eighteenKGold : 7185,
+     fourteenKGold : 5588,
+     platinum : 3372,
+     silver : 109,}]
 
     // const twentyFourKGold = 9831;
     // const twentyTwoKGold = 9005;
