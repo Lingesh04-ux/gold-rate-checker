@@ -5,8 +5,8 @@ const Datas = [
      twentyTwoKGold : 8775,
      eighteenKGold : 7168,
      fourteenKGold : 5575,
-     platinum : 3269,
-     silver : 109,}]
+     platinum : 3298,
+     silver : 108,}]
 
     // const twentyFourKGold = 9831;
     // const twentyTwoKGold = 9005;
