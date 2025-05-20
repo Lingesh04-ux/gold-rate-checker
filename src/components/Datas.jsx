@@ -1,12 +1,12 @@
 import React from 'react'
 
 const Datas = [
-     {twentyFourKGold : 9874,
-     twentyTwoKGold : 9045,
-     eighteenKGold : 7406,
-     fourteenKGold : 5760,
-     platinum : 3406,
-     silver : 110,}]
+     {twentyFourKGold : 9509,
+     twentyTwoKGold : 8710,
+     eighteenKGold : 7132,
+     fourteenKGold : 5546,
+     platinum : 3398,
+     silver : 108,}]
 
     // const twentyFourKGold = 9831;
     // const twentyTwoKGold = 9005;
